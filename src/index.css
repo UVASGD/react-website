@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#header {
+	box-shadow: 0px 0px 2px black;
+}
+
+/* Positioning the Header */
+#header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2em;
+	padding: 0;
+	background-color: #222222;
+	color: #FFFFFF;
+}
+
+/* Navigation buttons */
+#header ul {
+	position: absolute;
+	right: 0;
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header li {
+	float: left;
+	display: block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	height: 2em;
+	line-height: 2em;
+	vertical-align: middle;
+}
+
+#header a {
+	color: #FFFFFF;
+}
+
+/* SGD NAME */
+#header h1 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0em;
+	left: 2em;
+}
+
+/* SGD LOGO */
+#header img {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2em;
+	width: 2em;
+}
+
+/* Positioning page content */
+#content {
+	margin-top: 3em;
+}
+
+/* Positioning the Footer */
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1.5em;
+	padding-top: 0.25em;
+	padding-left: 1em;
+	background-color: #222222;
+	color: #FFFFFF;
 }

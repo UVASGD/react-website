@@ -1,0 +1,39 @@
+{
+	"semesters" : [
+		{
+			"name" : "Fall 2019",
+			"id" : "F2019",
+			"games" : [
+				{
+					"name" : "Game 1",
+					"id" : "1",
+					"description" : "First test!",
+					"download" : "https://google.com/"
+				},
+				{
+					"name" : "Game 2",
+					"id" : "2",
+					"description" : "Second test!",
+					"download" : "https://crouton.net/"
+				}
+			]
+		},
+		{
+			"name" : "Spring 2019",
+			"id" : "S2019",
+			"games" : [
+				{
+					"name" : "Game 3",
+					"id" : "3",
+					"description" : "<p>Test with a line break!</p><p>Line 2.</p>",
+					"download" : "https://sgd.cs.virginia.edu/"
+				},
+				{
+					"name" : "Game 4",
+					"id" : "4",
+					"description" : "Lorem ipsum dolor epset"
+				}
+			]
+		}
+	]
+}
